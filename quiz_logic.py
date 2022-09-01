@@ -5,7 +5,6 @@ class QuizLogic:
         self.question_number = 0
         self.list = question_list
 
-
     def still_has_questions(self):
         return len(self.list) > self.question_number
 
@@ -23,3 +22,4 @@ class QuizLogic:
             print('That is wrong.')
         print(f'The correct answer was {correct_answer}.')
         print(f'Your current score is {self.score}/{self.question_number}')
+        print('\n')
