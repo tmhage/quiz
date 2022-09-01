@@ -7,4 +7,3 @@ for question in question_data:
     q_answer = question['answer']
     new_question = Question(q_question, q_answer)
     question_bank.append(new_question)
-
