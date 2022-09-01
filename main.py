@@ -4,8 +4,8 @@ from quiz_logic import QuizLogic
 
 question_bank = []
 for question in question_data:
-    q_question = question['text']
-    q_answer = question['answer']
+    q_question = question['question']
+    q_answer = question['correct_answer']
     new_question = Question(q_question, q_answer)
     question_bank.append(new_question)
 

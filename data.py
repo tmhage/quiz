@@ -1,18 +1,33 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a "
-             "football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with "
-             "your car, you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, "
-             "you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in "
-             "half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {"category": "Science & Nature", "type": "boolean", "difficulty": "easy",
+     "question": "Igneous rocks are formed by excessive heat and pressure.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "easy",
+     "question": "Greenland is covered with grass and Iceland covered with ice.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "History", "type": "boolean", "difficulty": "easy",
+     "question": "The United States Department of Homeland Security was formed in response to the September 11th attacks.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Japanese Anime & Manga", "type": "boolean",
+     "difficulty": "easy", "question": "No Game No Life first aired in 2014.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "The 2005 video game &quot;Call of Duty 2: Big Red One&quot; is not available on PC.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "easy",
+     "question": "St. Louis is the capital of the US State Missouri.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Music", "type": "boolean", "difficulty": "easy",
+     "question": "The alternative rock band, They Might Be Giants, released their album &#039;Flood&#039; in 1990. ",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "In Pok&eacute;mon, Arbok evolves into Seviper.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "easy",
+     "question": "Tokyo is the capital of Japan.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Animals", "type": "boolean", "difficulty": "easy",
+     "question": "The internet browser Firefox is named after the Red Panda.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}
+
 ]
